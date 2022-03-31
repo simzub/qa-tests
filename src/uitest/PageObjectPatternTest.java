@@ -3,8 +3,7 @@ import org.junit.Test;
 public class PageObjectPatternTest extends AbstractTest {
 
     @Test
-    public void testAmerikaLietuvojeKontaktai() {
-        driver.get("https://amerikalietuvoje.com/lt/kontaktai");
+    public void testContactUsForm() {
         //write your code here
     }
 }
