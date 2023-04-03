@@ -15,7 +15,7 @@ public class AbstractTest {
         System.setProperty("webdriver.chromedriver.driver", file.getAbsolutePath()); //Driver name
         driver.manage().window().fullscreen();
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        driver.get("http://automationpractice.com/");
+        driver.get("https://automationexercise.com/");
     }
 
     @AfterClass
