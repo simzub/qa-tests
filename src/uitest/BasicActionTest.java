@@ -7,8 +7,6 @@ public class BasicActionTest extends AbstractTest {
 
     @Test
     public void testPageTitle() {
-        WebElement contactUsLink = driver.findElement(By.cssSelector("#header > div > div > div > div.col-sm-8 > div > ul > li:nth-child(8) > a"));
-        contactUsLink.click();
-        Assert.assertTrue("Automation Exercise - Contact Us".equals(driver.getTitle()));
+        //write your code here
     }
 }
