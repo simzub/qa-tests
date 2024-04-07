@@ -1,3 +1,5 @@
+package uitest;
+
 import org.junit.Test;
 
 public class TestBuyAnItem extends AbstractTest {
